@@ -1,7 +1,7 @@
 {
-    "name": "dfridrich/qr-platba",
+    "name": "hopkinscz/qr-platba",
     "type": "library",
-    "description": "Generování QR Plateb a QR Faktur v PHP.",
+    "description": "Generování QR Plateb a QR Faktur v PHP. Deafult instantní platba",
     "keywords": [
         "php",
         "qr",

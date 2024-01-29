@@ -204,6 +204,7 @@ class QRPlatba
         if ($currency) {
             $this->setCurrency($currency);
         }
+        $this->setInstantPayment();
     }
 
     /**
@@ -807,4 +808,13 @@ class QRPlatba
 
         return null;
     }
+
+    
+    public function setInstantPayment(bool $flag=true): self
+    {
+	    $this->spdKeys['PT'] = $flag ? 'IP' : null;
+
+	    return $this;
+    }
+
 }
