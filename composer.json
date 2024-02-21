@@ -7,12 +7,16 @@
         "qr",
         "platba"
     ],
-    "homepage": "https://github.com/dfridrich/QRPlatba",
+    "homepage": "https://github.com/hopkinscz/QRPlatba",
     "license": "MIT",
     "authors": [
         {
             "name": "Dennis Fridrich",
             "email": "fridrich.dennis@gmail.com"
+        },
+        {
+            "name": "Jaroslav Pour",
+            "email": "celistvost@gmail.com"
         }
     ],
     "require": {
